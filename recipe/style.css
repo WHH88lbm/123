@@ -4,3 +4,7 @@ h1{
 body{
     background-color: rgb(51, 159, 163);
 }
+
+h1, h2, h3, p, li{
+    font-family:  'Trebuchet MS', sans-serif;
+}
