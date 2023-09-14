@@ -3,22 +3,35 @@ h1{
     font-family: 'Kanit', sans-serif;
     font-size: 2rem;
     line-height: 1em;
-    color:rgb(8, 201, 235)
+    color:rgb(5, 128, 150)
 }
 body{
-    background-color: rgba(240, 178, 221, 0.315);
+    background-color: rgba(241, 136, 224, 0.315);
     font-family:  'Trebuchet MS', sans-serif;
     font-size: 1rem;
     line-height: 1.3rem;
-   
+ 
     
+}
+div#wrapper{
+    max-width: 1000px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 2rem;
+    /* centering the div by forcing left and right margins to be the same */
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:3rem;
 }
 img{
      float:right;
+     width:50%;
 }
 li{
     margin-bottom: 1.5rem;
 
  } 
-
+.align-center{
+    text-align: center;
+}
  
