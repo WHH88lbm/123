@@ -1,15 +1,19 @@
 #wrappe {
     max-width: 1200px;
+    margin:0 auto; /*first value is for top/bottom. second value for left/right */
   
 }
 header{
+    background:
+    linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 300px, rgba(255,255,255,0) 600px),
+    url(images/thewestwing.jpg) right top no-repeat,
+    black;
     padding:2em;
     /* backfround-color: #000; */
     /*background-image: url("images/the-west-wing-cast.jpg");
     background-repeat: no-repeat;
     background-position: top right;*/
-    background: url(images/the-west-wing-cast.jpg) no-repeat top right; 
-    color: #000;
+   
 }
 .lead{
     width:33%;
