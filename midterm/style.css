@@ -1,3 +1,7 @@
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    line-height: 1.5em;
+}
 #wrappe {
     max-width: 1200px;
     margin:0 auto; /*first value is for top/bottom. second value for left/right */
@@ -5,7 +9,7 @@
 }
 header{
     background:
-    linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 300px, rgba(255,255,255,0) 600px),
+    linear-gradient(90deg, rgba(0,0,0,1) 0, rgba(0,0,0,1) 300px, rgba(255,255,255,0) 600px),
     url(images/thewestwing.jpg) right top no-repeat,
     black;
     padding:2em;
@@ -15,7 +19,22 @@ header{
     background-position: top right;*/
    
 }
+p{
+    margin-bottom:1em;
+}
 .lead{
-    width:33%;
-    color:#fff
+   color:#fff;
+   width:300px;
+}
+h1 img{
+    max-width: 100%;
+
+}
+header button{
+    background-color: #c81519;
+    background-image: url("images/play.gif");
+    background-repeat: no-repeat;
+    border: none;
+    color:#fff;
+
 }
