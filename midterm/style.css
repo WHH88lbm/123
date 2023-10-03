@@ -30,11 +30,15 @@ h1 img{
     max-width: 100%;
 
 }
-header button{
+.button{
+    display: block;
+    width:3em;
     background-color: #c81519;
-    background-image: url("images/play.gif");
-    background-repeat: no-repeat;
+    padding:10px;
+    border-radius: 10px;
     border: none;
     color:#fff;
+    text-decoration: none;
+
 
 }
