@@ -29,6 +29,7 @@ img{
 }
 li{
     margin-bottom: 1.5rem;
+    display: inline;
 
  } 
 .align-center{

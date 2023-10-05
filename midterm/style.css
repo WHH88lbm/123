@@ -33,12 +33,26 @@ h1 img{
 .button{
     display: block;
     width:3em;
+    text-align: center;
     background-color: #c81519;
     padding:10px;
     border-radius: 10px;
-    border: none;
     color:#fff;
     text-decoration: none;
 
 
 }
+/*Navigation Bar */
+nav li{
+    display: inline;
+    margin-right: 2em;
+}
+nav a{
+    color:#fff;
+    text-decoration: underline;
+}
+nav{
+    background-color: #ccc;
+    padding: 0.1em 0; /* first value for top & bottom second value for left &right */
+
+ }
