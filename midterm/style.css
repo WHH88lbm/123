@@ -49,23 +49,20 @@ h1 img{
     display: inline;
     margin-right: 2em;
     border-right: solid 1px #fff;
-}
+} 
 nav a{
-    color:#fff;
-    text-decoration: underline;
-}
+    color: ;
+    text-decoration: #fff,underline;
+}/* first value for top & bottom second value for left &right */
 nav{
-    background-color: #ccc;
-    padding: 0.1em 0; /* first value for top & bottom second value for left &right */
-
+    background-color: #706d6d;
+    padding: 8px;
+}
  
  nav li{
-    display: inline-block;
-    width: 15em;
-    padding: 1em;
-    margin-right: 2em;
-    background-color: black;
-    text-align: center;
+    display: inline;
+    border-right: solid 1px #fff;
+    padding: 0 1.5em;
  }
  nav li:last-child{
     border:none;
@@ -75,6 +72,10 @@ nav a{
     color:#fff;
     text-decoration: none;
    
+}
+nav a:hover{
+    color: #a1a1a1;
+    text-decoration: underline;
 }
 nav ul{
     text-align: center;
@@ -92,6 +93,15 @@ nav ul{
 footer{/*making sure nothing floats next to footer*/
     clear:both;
 }
+/* Episode page */
+.episode-card{
+    width:24%;
+}
 .episodes{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.responsive-img{
+    width:100%;
 }
