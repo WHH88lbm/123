@@ -101,6 +101,7 @@ footer{/*making sure nothing floats next to footer*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .responsive-img{
     width:100%;
