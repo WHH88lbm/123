@@ -98,10 +98,10 @@ footer{/*making sure nothing floats next to footer*/
     width:24%;
 }
 .episodes{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
 }
 .responsive-img{
     width:100%;
