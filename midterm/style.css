@@ -106,3 +106,13 @@ footer{/*making sure nothing floats next to footer*/
 .responsive-img{
     width:100%;
 }
+.card{
+    flex:0 0 200px;
+    margin-right:2em;
+    border:solid 1px #ccc;
+    margin-bottom:2em;
+
+}
+.card p, .card h3{
+    margin:1em;
+}
