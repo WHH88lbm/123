@@ -63,6 +63,7 @@ nav{
     display: inline;
     border-right: solid 1px #fff;
     padding: 0 1.5em;
+    
  }
  nav li:last-child{
     border:none;
