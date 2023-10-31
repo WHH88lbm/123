@@ -114,6 +114,7 @@ footer{/*making sure nothing floats next to footer*/
     margin-bottom:2em;
 
 }
+.card img{width: 100%;}
 .card p, .card h3{
     margin:1em;
 }
