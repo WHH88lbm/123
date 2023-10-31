@@ -118,3 +118,17 @@ footer{/*making sure nothing floats next to footer*/
 .card p, .card h3{
     margin:1em;
 }
+@media (max-width:500px){
+    .episodes{
+        flex-direction: column;
+    }
+    .lead{
+        width:70%;
+    }
+
+    header{
+        background:
+        linear-gradient(90deg, rgba(0,0,0,1) 0, rgba(0,0,0,1) 300px, rgba(255,255,255,0) 600px),
+        url(images/thewestwing.jpg) no-repeat top right/100%;
+         }
+}
