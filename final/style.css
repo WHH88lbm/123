@@ -1,0 +1,18 @@
+#wrapper{
+    max-width: 1200px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.topNav nav{
+    /*display: none;*/
+    clear:right; /*
+
+}
+#menu {
+    float:right;
+}
