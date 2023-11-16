@@ -1,0 +1,8 @@
+*{  /* universal selector selects all elements*/
+    margin:0;
+    padding:0;
+    border:none;
+}
+.material-symbols-outlined{
+    float:right;
+}
