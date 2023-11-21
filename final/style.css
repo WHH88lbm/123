@@ -16,3 +16,6 @@ header{
 #menu {
     float:right;
 }
+.programNav a{
+    clear: both;
+}
