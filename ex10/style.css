@@ -4,5 +4,33 @@
     border:none;
 }
 .material-symbols-outlined{
+
     float:right;
+}
+nav a{
+    display:block;
+    padding: 10px;
+    background-color: rgb(252, 218, 252);
+    border-bottom: solid 1px rgb(11, 176, 241);
+    color:rgba(6, 71, 211, 0.397);
+    text-decoration: none;
+    font-weight: bold;
+  
+   
+}
+nav a:hover{
+    background-color: rgb(119, 128, 0);
+}
+.drop-menu a{
+    background-color: rgb(212, 250, 221);
+    color: rgb(250, 85, 3);
+}
+.drop-menu a:hover{
+    background-color:grey;
+}
+.drop-menu{
+    display: none;
+}
+nav li:hover .drop-menu{
+    display: block;
 }
