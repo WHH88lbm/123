@@ -60,6 +60,22 @@ dropdown{
     border-radius:10px;
     box-shadow:3px 3px 3px black;
 
+}
+section{
+    margin: 2em 0;
+}
 
+article{
+    margin: 1em 0;
+}
 
+article img{
+     width:100%;
+}
+.date{
+    margin-top: 0.5em;
+}
+
+footer{
+    font-size: smaller;
 }
