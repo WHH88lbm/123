@@ -79,3 +79,11 @@ article img{
 footer{
     font-size: smaller;
 }
+
+@media (min-width:768px){
+    main{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 1em;
+    }
+}
