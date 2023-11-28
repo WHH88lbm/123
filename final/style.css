@@ -46,4 +46,20 @@ dropdown{
 .banner p{
     background-color: rgba(255,255,255,0);
     font-size: 1.5em;
+    padding: 1em;
+}
+.btn{
+    background-color:darksalmon;
+    width:100px;
+    background-color:rgba(100, 5, 5, 0);
+    padding:0.5em;
+    text-transform: uppercase;
+    color:aliceblue;
+    margin-top:1em;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:3px 3px 3px black;
+
+
+
 }
