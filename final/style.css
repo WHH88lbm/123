@@ -16,6 +16,34 @@ header{
 #menu {
     float:right;
 }
-.programNav a{
+.programNav{
     clear: both;
+}
+.programNav{
+    display:block;
+    padding:10px;
+    border:solid 1px white;
+
+}
+
+dropdown{
+    display:none;
+}
+.programNav a{
+    background-color: aqua;
+
+}
+.programNav li:hover .dropdown{
+    display:block;
+}
+/*banner*/
+.banner{
+    padding:2em;
+    height:200px;
+    background: url("images/art-design.webp") no-repeat;
+    background-color: cover;
+}
+.banner p{
+    background-color: rgba(255,255,255,0);
+    font-size: 1.5em;
 }
