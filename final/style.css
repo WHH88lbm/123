@@ -9,6 +9,7 @@ body{
 
 p{
     margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 header{
@@ -19,6 +20,15 @@ header{
 
 h1{
     float:left;
+}
+
+h1,h2, h3, strong{
+    font-weight: bold;
+}
+
+h2{
+    text-transform: uppercase;
+    color:blueviolet;
 }
 .topNav nav{
     display: none;
