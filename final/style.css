@@ -122,3 +122,16 @@ footer{
         grid-gap: 1em;
     }
 }
+.flex-container{
+    display: flex;
+}
+
+.program-select{
+    width:33%;
+    position:relative;
+}
+
+.dropdown{
+    position:absolute;
+    width:100%;
+}
