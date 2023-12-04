@@ -2,9 +2,20 @@
     max-width: 1200px;
 
 }
+
+
+.menu{
+    display:none;
+}
+.show-menu{
+    background-color: transparent;
+    border:none;
+    float:right;
+}
 body{
     margin:0.5em;
     font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
 }
 
 p{
@@ -12,11 +23,12 @@ p{
     margin-top: 1em;
 }
 
-/*header{
-    display: flex;
-    justify-content: space-between;
+header{
+    margin-bottom: 1em;
+    /*display: flex;
+    justify-content: space-between;*/
 
-}*/
+}
 
 h1{
     float:left;
@@ -26,16 +38,31 @@ h1,h2, h3, strong{
     font-weight: bold;
 }
 
+a{
+    color:burlywood;
+}
+
 h2{
     text-transform: uppercase;
-    color:blueviolet;
+    color:rgb(90, 6, 150);
+
 }
+
+/*.show-menu{
+    display:none;
+}*/
+.menu{
+    display: flex;
+}
+
 .topNav nav{
     display: none;
     clear:right; /* clears right floats */
     border:solid 1px #ccc;
 
 }
+
+
 
 .programNav a{
     display:block;
@@ -49,7 +76,7 @@ h2{
 
 .dropdown a{
 
-    background-color: aqua;
+    background-color: rgb(165, 249, 249);
 }
 
 
@@ -72,25 +99,27 @@ h2{
     padding:2em;
     padding-top: 3em;
     height:200px;
-    background:url("images/art-design.webp") no-repeat;
+    background:url("images/design.png") no-repeat;
     background-color: cover;
+    
 }
 .banner p{
-    background-color: rgba(255,255,255,0);
+    background-color: rgba(228, 226, 226, 0.925);
     font-size: 1.5em;
     padding: 1em;
 }
-.btn{
+.btn {
     background-color:darksalmon;
     width:100px;
     background-color:rgba(100, 5, 5, 0);
     padding:0.5em;
     text-transform: uppercase;
-    color:aliceblue;
+    color:rgb(250, 248, 250);
     margin-top:1em;
     text-align:center;
     border-radius:10px;
     box-shadow:3px 3px 3px black;
+    
 
 }
 section{
@@ -116,11 +145,13 @@ footer{
 }
 
 @media (min-width:768px){
+    
     main{
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-gap: 1em;
     }
+    
 }
 .flex-container{
     display: flex;
