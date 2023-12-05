@@ -1,17 +1,9 @@
 #wrapper{
     max-width: 1200px;
-
 }
 
 
-.menu{
-    display:none;
-}
-.show-menu{
-    background-color: transparent;
-    border:none;
 
-}
 body{
     margin:0.5em;
     font-family:Arial, Helvetica, sans-serif;
@@ -47,20 +39,16 @@ h2{
     color:rgb(90, 6, 150);
 
 }
-
-/*.show-menu{
-    display:none;
-}*/
-.menu{
-    display: flex;
-}
-
 .topNav nav{
     display: none;
     clear:right; /* clears right floats */
     border:solid 1px #ccc;
-
+    padding:0.5em;
+    text-align: center;
 }
+
+
+
 
 
 
@@ -84,9 +72,9 @@ h2{
     display:block;
 }
 
-/* #menu {
+ #menu {
     float:right;
-}*/
+}
 .programNav{
     clear: both;
 }
@@ -100,7 +88,7 @@ h2{
     padding-top: 3em;
     height:200px;
     background:url("images/design.png") no-repeat;
-    background-color: cover;
+    background-size: cover;
     
 }
 .banner p{
@@ -152,7 +140,7 @@ footer{
         grid-gap: 1em;
     }
     
-}
+
 .flex-container{
     display: flex;
 }
@@ -166,3 +154,26 @@ footer{
     position:absolute;
     width:100%;
 }
+
+/* top most navigation is visible on large screens */
+.topNav{
+    display:block;
+}
+
+
+#menu{
+    display:none;
+}
+
+.topNav ul, .topNav li, .topNav form{
+    display:inline;
+    margin-left: 1em;
+}
+
+.topNav nav{
+    border:none;
+    float:right;
+    margin-right: 0;
+}
+}
+/* closing media query */
