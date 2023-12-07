@@ -1,0 +1,28 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.main-content{
+    
+    margin-top: 5em;
+}
+.feature{
+    
+    margin-top: 2em;
+    margin-bottom: 3em;
+    
+}
+.gutter{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.caption {
+    margin-top: 10px;
+}
+footer {
+    text-align: center;
+    margin-top: 60px;
+}
