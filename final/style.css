@@ -138,6 +138,10 @@ footer{
         grid-template-columns: 2fr 1fr;
         grid-gap: 1em;
     }
+
+    main.program-page{
+        display:block;
+    }
     
 
 .flex-container{
@@ -173,6 +177,13 @@ footer{
     border:none;
     float:right;
     margin-right: 0;
+}
+
+.program{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-gap: 3em;
 }
 }
 /* closing media query */
