@@ -27,6 +27,7 @@ header{
 
 h1{
     float:left;
+    color: rgb(169, 243, 218);
 }
 
 h1,h2, h3, strong{
