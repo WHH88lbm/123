@@ -84,7 +84,7 @@ h2{
 /*banner*/
 .banner{
     padding:2em;
-    padding-top: 6em;
+    padding-top:3em;
     height:200px;
     background:url("images/multimedia-design.jpg") no-repeat;
     background-size: cover;
@@ -95,7 +95,7 @@ h2{
     background-color: rgb(248, 248, 227);
     font-size: 1.5em;
     padding: 1em;
-    
+
 }
 .btn {
     background-color:darksalmon;
