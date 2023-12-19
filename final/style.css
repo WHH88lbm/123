@@ -76,10 +76,12 @@ h2{
 }
 .programNav{
     clear: both;
+
 }
 
 .program-select{
-     margin-bottom: 1em;
+    margin-bottom: 1em;
+    
 }
 /*banner*/
 .banner{
@@ -157,6 +159,8 @@ footer{
 .program-select{
     width:33%;
     position:relative;
+    
+    
 }
 
 .dropdown{
