@@ -27,7 +27,7 @@ header{
 
 h1{
     float:left;
-    color: rgb(189, 252, 231);
+    color: hsl(221, 66%, 86%);
 }
 
 h1,h2, h3, strong{
@@ -93,7 +93,7 @@ h2{
     
 }
 .banner p{
-    background-color: rgba(248, 248, 241, 0.925);
+    background-color: rgba(248, 248, 241, 0.884);
     font-size: 1.5em;
     padding: 1em;
     color: rgba(4, 155, 42, 0.89);
@@ -165,7 +165,7 @@ footer{
 }
 
 /* top most navigation is visible on large screens */
-.topNav{
+.topNav nav {
     display:block;
 }
 
