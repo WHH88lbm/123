@@ -88,6 +88,7 @@ h2{
     height:200px;
     background:url("images/multimedia-design.jpg") no-repeat;
     background-size: cover;
+    
    
     
 }
@@ -95,7 +96,7 @@ h2{
     background-color: rgb(248, 248, 227);
     font-size: 1.5em;
     padding: 1em;
-
+    
 }
 .btn {
     background-color:darksalmon;
@@ -109,7 +110,7 @@ h2{
     border-radius:10px;
     box-shadow:3px 3px 3px black;
     
-
+   
 }
 section{
     margin: 2em 0;
@@ -187,5 +188,7 @@ footer{
     /* grid-template-columns: 1fr 1fr 1fr; */
     grid-gap: 3em;
 }
+
+
 }
 /* closing media query */
